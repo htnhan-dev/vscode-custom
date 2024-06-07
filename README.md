@@ -64,7 +64,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 <h2 align="center">🔥 Screenshots 🔥</h2>
 <br>
 <a href="#" target="_blank">
-  <img src="./sample.png" width="1200" alt="Custom Theme Screenshot" />
+  <img src="./sample1.png" width="1200" alt="Custom Theme Screenshot" />
 </a>
 
 <br>
