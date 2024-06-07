@@ -7,6 +7,7 @@
   --size: 5px;
 }
 
+/* Style for text */
 .mtk10,
 .mtk15 {
   color: transparent;
@@ -94,7 +95,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* custom border tabs */
+/* style for border tabs */
 .monaco-workbench
   .part.editor
   > .content
@@ -203,7 +204,7 @@
   }
 }
 
-/* custom scrool bar */
+/* custom scroll bar */
 .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
   background-image: linear-gradient(to top, #ffb86c, #ff6bcb);
   width: 4.5px !important;
