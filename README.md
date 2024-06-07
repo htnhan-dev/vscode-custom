@@ -6,6 +6,9 @@
 <h2 align="center">🛠 Installation and Usage 🛠</h2>
 <br>
 
+ <h1>Getting Started with VSCode Custom CSS Imports</h1>
+ <p>This project allows you to customize your Visual Studio Code experience by applying your own CSS styles and themes.</p>
+
 
 ## Installation
 
@@ -91,11 +94,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 </div>
 
 <br>
-
-<h2 align="center">📑 My Favorite Quote 📑</h2>
-<br>
-<a href="#" target="_blank">
-  <img src="svg/nhanhuynh-quotes.svg" width="846" height="150" alt="Favorite Quote" />
-</a>
 
 Enhance your Visual Studio Code experience with custom styles and themes tailored to your preference. Happy coding!
