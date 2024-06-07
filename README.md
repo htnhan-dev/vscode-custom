@@ -1,96 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README</title>
-</head>
-<body>
-    <h1>Getting Started with VSCode Custom CSS Imports</h1>
-    <p>This project allows you to customize your Visual Studio Code experience by applying your own CSS styles and themes.</p>
+<!-- VSCode Custom CSS Imports -->
+<a href="#" target="_blank">
+  <img src="./sample.png" width="1200" alt="VSCode Custom CSS Imports" />
+</a>
 
-    <h2>Available Scripts</h2>
-    <p>In the project directory, you can run:</p>
+<h2 align="center">🛠 Installation and Usage 🛠</h2>
+<br>
 
-    <h3>npm install</h3>
-    <p>Installs the necessary dependencies for the project.</p>
+## Available Scripts
 
-    <h3>npm start</h3>
-    <p>Starts the extension in development mode.</p>
+In the project directory, you can run:
 
-    <h3>npm run build</h3>
-    <p>Builds the extension for production to the <code>dist</code> folder. It correctly bundles all necessary files for optimal performance.</p>
+### `npm install`
 
-    <h2>Installation</h2>
-    <ol>
-        <li>
-            <p><strong>Install the Extension</strong>:</p>
-            <ul>
-                <li>Open Visual Studio Code.</li>
-                <li>Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing <code>Ctrl+Shift+X</code> (Windows/Linux) or <code>Cmd+Shift+X</code> (macOS).</li>
-                <li>Search for "VSCode Custom CSS Imports" and click Install.</li>
-            </ul>
-        </li>
-        <li>
-            <p><strong>Enable Custom CSS and JS</strong>:</p>
-            <ul>
-                <li>Open your VSCode settings (<code>Ctrl+,</code> or <code>Cmd+,</code> on macOS).</li>
-                <li>Search for <code>custom css and js</code>.</li>
-                <li>Ensure the <strong>Custom CSS and JS</strong> extension by <code>be5invis</code> is installed and enabled.</li>
-            </ul>
-        </li>
-    </ol>
+Installs the necessary dependencies for the project.
 
-    <h2>Applying Your Theme</h2>
-    <ol>
-        <li>
-            <p><strong>Clone the Repository</strong>:</p>
-            <pre><code>git clone https://github.com/yourusername/vscode-custom-theme.git</code></pre>
-        </li>
-        <li>
-            <p><strong>Link Your Custom CSS</strong>:</p>
-            <ul>
-                <li>Open VSCode and go to File -> Preferences -> Settings.</li>
-                <li>Search for <code>custom css</code>.</li>
-                <li>Set the <code>Custom CSS and JS path</code> to the path of your custom CSS file. For example:</li>
-                <pre><code>"vscode_custom_css.imports": [
-    "file:///path/to/your/vscode-custom-theme/custom.css"
-]</code></pre>
-            </ul>
-        </li>
-        <li>
-            <p><strong>Enable Custom Styles</strong>:</p>
-            <ul>
-                <li>Press <code>F1</code> to open the Command Palette.</li>
-                <li>Type <code>Enable Custom CSS and JS</code> and select it.</li>
-                <li>Reload/restart VSCode when prompted.</li>
-            </ul>
-        </li>
-    </ol>
+### `npm start`
 
-    <h2>Usage</h2>
-    <ul>
-        <li>
-            <p><strong>Editing Your Theme</strong>:</p>
-            <p>Make changes to your custom CSS file located in the cloned repository.</p>
-            <p>Save the file and see your changes take effect immediately in VSCode.</p>
-        </li>
-        <li>
-            <p><strong>Switching Themes</strong>:</p>
-            <p>To switch themes, simply change the <code>file:///path/to/your/vscode-custom-theme/custom.css</code> path in the settings to point to a different CSS file.</p>
-        </li>
-    </ul>
+Starts the extension in development mode.
 
-    <h2>Learn More</h2>
-    <p>You can learn more in the <a href="https://github.com/be5invis/vscode-custom-css">VSCode Custom CSS and JS documentation</a>.</p>
-    <p>For more customization options and extensions, check out the <a href="https://marketplace.visualstudio.com/vscode">VSCode Marketplace</a>.</p>
+### `npm run build`
 
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for more details.</p>
+Builds the extension for production to the `dist` folder. It correctly bundles all necessary files for optimal performance.
 
-    <h2>Screenshots</h2>
-    <img src="./sample.png" alt="Custom Theme Screenshot">
+## Installation
 
-    <p>Enhance your Visual Studio Code experience with custom styles and themes tailored to your preference. Happy coding!</p>
-</body>
-</html>
+1. **Install the Extension**:
+   - Open Visual Studio Code.
+   - Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS).
+   - Search for "VSCode Custom CSS Imports" and click Install.
+
+2. **Enable Custom CSS and JS**:
+   - Open your VSCode settings (`Ctrl+,` or `Cmd+,` on macOS).
+   - Search for `custom css and js`.
+   - Ensure the `Custom CSS and JS` extension by `be5invis` is installed and enabled.
+
+## Applying Your Theme
+
+1. **Clone the Repository**:
+   - Open your terminal.
+   - Clone your custom theme repository:
+     ```sh
+     git clone https://github.com/yourusername/vscode-custom-theme.git
+     ```
+
+2. **Link Your Custom CSS**:
+   - Open VSCode and go to File -> Preferences -> Settings.
+   - Search for `custom css`.
+   - Set the `Custom CSS and JS path` to the path of your custom CSS file. For example:
+     ```json
+     "vscode_custom_css.imports": [
+       "file:///path/to/your/vscode-custom-theme/custom.css"
+     ]
+     ```
+
+3. **Enable Custom Styles**:
+   - Press `F1` to open the Command Palette.
+   - Type `Enable Custom CSS and JS` and select it.
+   - Reload/restart VSCode when prompted.
+
+## Usage
+
+- **Editing Your Theme**:
+  - Make changes to your custom CSS file located in the cloned repository.
+  - Save the file and see your changes take effect immediately in VSCode.
+
+- **Switching Themes**:
+  - To switch themes, simply change the `file:///path/to/your/vscode-custom-theme/custom.css` path in the settings to point to a different CSS file.
+
+## Learn More
+
+You can learn more in the [VSCode Custom CSS and JS documentation](https://github.com/be5invis/vscode-custom-css).
+
+For more customization options and extensions, check out the [VSCode Marketplace](https://marketplace.visualstudio.com/vscode).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+<h2 align="center">🔥 Screenshots 🔥</h2>
+<br>
+<a href="#" target="_blank">
+  <img src="./sample.png" width="1200" alt="Custom Theme Screenshot" />
+</a>
+
+<br>
+
+<h2 align="center">Contact</h2>
+<br>
+<div align="center">
+  <a href="https://www.facebook.com/Kai3110.Kai" target="blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="Facebook" />
+  </a>
+  <a href="https://www.youtube.com/channel/UCGepTGAfNX83rRKp-r-iJ1w" target="blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/youtube-squared.png" alt="YouTube" />
+  </a>
+  <a href="https://www.linkedin.com/in/nhanhuynh" target="blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="LinkedIn" />
+  </a>
+  <a href="https://instagram.com/kaitina3116" target="blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/instagram.png" alt="Instagram" />
+  </a>
+  <a href="mailto:nhanhuynh495@gmail.com" target="top">
+    <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="Email" />
+  </a>
+</div>
+
+<br>
+
+<h2 align="center">📑 My Favorite Quote 📑</h2>
+<br>
+<a href="#" target="_blank">
+  <img src="svg/nhanhuynh-quotes.svg" width="846" height="150" alt="Favorite Quote" />
+</a>
+
+Enhance your Visual Studio Code experience with custom styles and themes tailored to your preference. Happy coding!
