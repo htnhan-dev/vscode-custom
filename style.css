@@ -73,16 +73,17 @@
   -webkit-background-clip: text;
   font-style: normal;
 }
+
 .mtk3 {
   color: transparent;
-  background-image: linear-gradient(to right, #946bdb, #f387c1, #dad8d4);
+  background-image: linear-gradient(to top right, #946bdb, #f387c1, #dad8d4);
   background-clip: text;
-
   font-weight: bold;
   font-style: normal;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
 .mtk7 {
   color: transparent;
   background-image: linear-gradient(to right bottom, #d66a85, #ffb86c);
