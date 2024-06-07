@@ -1,8 +1,4 @@
 <!-- VSCode Custom CSS Imports -->
-<a href="#" target="_blank">
-  <img src="./sample.png" width="1200" alt="VSCode Custom CSS Imports" />
-</a>
-
 <h2 align="center">🛠 Installation and Usage 🛠</h2>
 <br>
 
