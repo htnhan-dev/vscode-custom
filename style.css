@@ -1,0 +1,222 @@
+:root {
+  --gradient-dir1: to top right;
+  --gradient-dir2: to bottom left;
+  --gradient-dir3: to right top;
+  --gradient-dir4: to left bottom;
+  --gradient-dir5: to top left;
+  --size: 5px;
+}
+
+.mtk10,
+.mtk15 {
+  color: transparent;
+  background-image: linear-gradient(to left top, #e7003a, #ff2ced, #ffb86c);
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-style: normal;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mtk5,
+.mtk26 {
+  color: transparent;
+  background-image: linear-gradient(
+    112.9deg,
+    rgba(112, 255, 151, 0.8) 6.2%,
+    rgba(70, 195, 255, 1) 99.7%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-font-smoothing: auto;
+  font-weight: bold;
+}
+.mtk16 {
+  color: transparent;
+  background-image: linear-gradient(
+    292.9deg,
+    rgba(254, 105, 241, 1) 28.8%,
+    rgba(182, 44, 248, 1) 70.4%
+  );
+  background-clip: text;
+  font-weight: bold;
+  font-style: normal;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.mtk9,
+.mtk17 {
+  color: transparent;
+  background-image: linear-gradient(
+    89.5deg,
+    rgba(131, 204, 255, 1) 0.4%,
+    rgba(66, 144, 251, 1) 100.3%
+  );
+  background-clip: text;
+  font-weight: bold;
+  font-style: normal;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.mtk18 {
+  color: transparent;
+  background-image: linear-gradient(
+    124.1deg,
+    rgba(255, 148, 215, 1.8) 12.3%,
+    rgba(251, 223, 242, 0.9) 65.2%
+  );
+  background-clip: text;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-style: normal;
+}
+.mtk3 {
+  color: transparent;
+  background-image: linear-gradient(to right top, #946bdb, #f387c1, #dad8d4);
+  background-clip: text;
+
+  font-weight: bold;
+  font-style: normal;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.mtk7 {
+  color: transparent;
+  background-image: linear-gradient(to right bottom, #d66a85, #ffb86c);
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  font-weight: bold;
+  font-style: normal;
+  -webkit-text-fill-color: transparent;
+}
+
+/* custom border tabs */
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container {
+  padding: 8px;
+  gap: 8px;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.sizing-fit {
+  background-color: #21222c !important;
+  border-radius: 5px;
+}
+.tab.tab-actions-right.sizing-fit.has-icon.tab-border-top.active .tab-label {
+  position: relative;
+}
+.tab.tab-actions-right.sizing-fit.has-icon.tab-border-top.active:before {
+  content: "";
+  position: absolute;
+  background: #21222c;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  border-radius: inherit;
+  transform: translate(-50.1%, -50.1%);
+  border-radius: inherit;
+}
+
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .action-item.checked
+  .active-item-indicator:before {
+  border: 0;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, #fc6c8f, #ff2ced);
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container {
+  background-image: linear-gradient(to left, #fc6c8f, #ff2ced);
+  height: 2px;
+}
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .badge
+  .badge-content {
+  background-image: linear-gradient(var(--gradient-dir2), #fc6c8f, #ff2ced);
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container {
+  background-size: 400% 400%;
+  background-image: linear-gradient(
+    -45deg,
+    #fc6c8f,
+    #ff2ced,
+    #ffb86c,
+    #2cccff,
+    #20e3b2,
+    #ffcc70,
+    #c850c0,
+    #4158d0
+  );
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  animation: gradient 5s ease alternate infinite;
+  height: 2px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* custom scrool bar */
+.editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
+  background-image: linear-gradient(to top, #ffb86c, #ff6bcb);
+  width: 4.5px !important;
+  border-radius: 0.5rem;
+}
+
+/* Styles for cursor */
+.cursors-layer .cursor {
+  border-radius: 5px;
+  background-image: linear-gradient(
+    245deg,
+    #fcb564,
+    #ff65f2,
+    #d66efd
+  ) !important;
+}
