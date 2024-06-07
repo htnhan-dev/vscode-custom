@@ -6,21 +6,6 @@
 <h2 align="center">🛠 Installation and Usage 🛠</h2>
 <br>
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm install`
-
-Installs the necessary dependencies for the project.
-
-### `npm start`
-
-Starts the extension in development mode.
-
-### `npm run build`
-
-Builds the extension for production to the `dist` folder. It correctly bundles all necessary files for optimal performance.
 
 ## Installation
 
