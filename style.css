@@ -7,7 +7,6 @@
   --size: 5px;
 }
 
-/* Style for text */
 .mtk10,
 .mtk15 {
   color: transparent;
@@ -76,7 +75,7 @@
 }
 .mtk3 {
   color: transparent;
-  background-image: linear-gradient(to right top, #946bdb, #f387c1, #dad8d4);
+  background-image: linear-gradient(to right, #946bdb, #f387c1, #dad8d4);
   background-clip: text;
 
   font-weight: bold;
@@ -95,7 +94,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* style for border tabs */
+/* custom border tabs */
 .monaco-workbench
   .part.editor
   > .content
@@ -204,7 +203,7 @@
   }
 }
 
-/* custom scroll bar */
+/* custom scrool bar */
 .editor-container .monaco-scrollable-element > .scrollbar.vertical > .slider {
   background-image: linear-gradient(to top, #ffb86c, #ff6bcb);
   width: 4.5px !important;
