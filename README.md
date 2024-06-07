@@ -25,7 +25,7 @@
    - Open your terminal.
    - Clone your custom theme repository:
      ```sh
-     git clone https://github.com/yourusername/vscode-custom-theme.git
+     git clone https://github.com/htnhan-dev/vscode-custom-theme.git
      ```
 
 2. **Link Your Custom CSS**:
